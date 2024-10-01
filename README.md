@@ -1,0 +1,3 @@
+# iniciando my POO
+
+en python ...
