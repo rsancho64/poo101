@@ -5,7 +5,7 @@ class Pet:
     # def __init__(self):
     #     print(self,": hola, mundo")
 
-    def __init__(self, especie="animal", nombre=None):
+    def __init__(self, especie=None, nombre=None):
         self.__especie = especie
         self.nombre = nombre
         print(self)
@@ -16,13 +16,14 @@ class Pet:
 
     # # TODO: vs __repr__? # SEE: https://jarroba.com/repr-y-str-de-python/
     def __str__(self) -> str:
+
         esp = self.__especie
         if not self.__especie: esp = "mascota"
         answ = f"soy un {esp}"
-        if self.nombre != None:
+
+        if self.nombre:
             answ += f" y me llamo {self.nombre}"
         return answ
-        # return f"soy un {self.__especie} y me llamo {self.nombre}"
 
 if __name__== "__main__":
 
