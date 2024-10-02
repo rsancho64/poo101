@@ -3,7 +3,7 @@
 En python ...
 - [x] una clase totalmente vacia. **Pet**. Ya se puede imprimir
 - [x] servicio __init__ y estados en la clase; init polimorfico. ¿mas de uno, todo en uno?
-- [ ] un estado: visible o no? (notacion **__X**) 
+- [x] un estado: visible o no? (notacion **__X**) 
 - [ ] setter: ¿la buena práctica?
 - [ ] getter: ¿la buena práctica?
 - [ ] poo: formas canonicas? (en python)?
