@@ -1,4 +1,4 @@
-# from typing import Any
+# from typing import Any # typing.Any vs object: READ https://stackoverflow.com/questions/39817081/typing-any-vs-object
 
 class Mascota:
 
