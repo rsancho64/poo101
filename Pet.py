@@ -53,6 +53,13 @@ if __name__== "__main__":
     print(m1)
     print(m2)
     print(m3)
+    print()
+
+    print(m0.__repr__())
+    print(m1.__repr__())
+    print(m2.__repr__())
+    print(m3.__repr__())
+    print()
 
     # accesible? que?
     print(m2.nombre) 

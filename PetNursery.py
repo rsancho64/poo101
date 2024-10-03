@@ -27,11 +27,11 @@ class PetNursery:
 
 if __name__ == "__main__":
 
-    p0 = Pet(especie="perro", nombre="Pompa")
     myPetNursery = PetNursery()
     print(myPetNursery.lista)
     print(myPetNursery)
 
+    p0 = Pet(especie="perro", nombre="Pompa")
     myPetNursery.addPet(p0)
     print(myPetNursery.lista)
     print(myPetNursery)
