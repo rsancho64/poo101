@@ -15,9 +15,6 @@ class PetNursery:
         return str(self.lista)
 
     def __str__(self) -> str:
-
-        # return self.__repr__()
-
         answ = f"{{"
         for pet in self.lista:
             answ += f"{pet}, "
