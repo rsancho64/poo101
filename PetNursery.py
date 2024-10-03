@@ -8,16 +8,18 @@ class PetNursery:
         self.lista = []
 
     def addPet(self, aPet: Pet):
-        self.lista.append(aPet)    
+        self.lista.append(aPet)
+
+    def __repr__(self) -> str:
+        return str(self.lista)
 
     def __str__(self) -> str:
-        answ = f"["
+        # return self.__repr__()
+
+        answ = f"{{"
         for pet in self.lista:
-            # answ += pet   # ++ __repr__ 
-            answ += Pet(pet).__str__()   # ++ __str__ 
-            answ += f", "
-        answ += f"]"
-        print(f"answ: {answ} ***********")
+            answ += f"{pet}, "
+        answ += f"}}"
         return answ
 
 if __name__ == "__main__":
