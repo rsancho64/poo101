@@ -4,6 +4,10 @@ from typing import Any  ## automagicamente !?
 # TODO READ https://stackoverflow.com/questions/39817081/typing-any-vs-object
 
 class Pet:
+    """
+    esta es la documentacion de la clase Pet
+    lo normal es usar mas de una linea
+    """
 
     nombre = None  # class var declared (,, static) Not protected.
 
@@ -89,3 +93,5 @@ if __name__== "__main__":
 
     mXXX.nombre = "666"  # desprotegida pero con __settattr__() programado
     print(mXXX)
+
+    print(mXXX.__doc__)
