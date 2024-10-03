@@ -2,6 +2,7 @@
 
 from Pet import Pet
 
+
 class PetNursery:
 
     def __init__(self):
@@ -14,6 +15,7 @@ class PetNursery:
         return str(self.lista)
 
     def __str__(self) -> str:
+
         # return self.__repr__()
 
         answ = f"{{"
@@ -22,10 +24,11 @@ class PetNursery:
         answ += f"}}"
         return answ
 
+
 if __name__ == "__main__":
 
     p0 = Pet(especie="perro", nombre="Pompa")
-    myPetNursery= PetNursery()
+    myPetNursery = PetNursery()
     print(myPetNursery.lista)
     print(myPetNursery)
 
